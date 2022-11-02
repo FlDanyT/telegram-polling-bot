@@ -3,7 +3,7 @@ const sequelize = require('./db');
 const UserModel = require('./modoles');
 
 
-const token = '5662638170:AAFRsyTFklc1e8FRMVFstnPtj0sWFwEWPYU' //токен telegram
+const token = '' //токен telegram
 
 const bot = new TelegramApi(token, {polling: true})
 
